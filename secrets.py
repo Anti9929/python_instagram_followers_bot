@@ -1,0 +1,2 @@
+password = "Bladerko619*"
+
