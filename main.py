@@ -1,5 +1,8 @@
 from selenium import webdriver
 from time import sleep
+
+# placed secret file outside of project directory, used sys to access the new local location
+# and imported the content from the file: insta_bot_secrets
 import sys
 sys.path.insert(1,'/Users/brunoreyes/Desktop/Code/Python/')
 from insta_bot_secrets import password
